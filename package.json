@@ -1,12 +1,10 @@
 {
   "name": "@sooomucheffort/kitsune",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Yet another argument parser",
   "main": "index.js",
   "repository": "https://github.com/sooomucheffort/kitsune.git",
   "author": "sooomucheffort",
   "license": "MIT",
-  "dependencies": {
-    "@discordjs/collection": "^0.2.1"
-  }
+  "dependencies": {}
 }
