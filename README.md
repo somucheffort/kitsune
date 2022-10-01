@@ -2,14 +2,14 @@
 kitsune is yet another argument parser, which was introduced in [@modularium/fox](https://github.com/modularium/fox).
 
 ```sh
-$ npm i @somucheffort/kitsune
-$ yarn add @somucheffort/kitsune
+$ npm i @sooomucheffort/kitsune
+$ yarn add @sooomucheffort/kitsune
 ```
 
 ## Example
 
 ```js
-const { KitsuneParser, KitsuneParserError, KitsuneParserType } = require('@somucheffort/kitsune')
+const { KitsuneParser, KitsuneParserError, KitsuneParserType } = require('@sooomucheffort/kitsune')
 
 const kp = new KitsuneParser()
 
@@ -54,7 +54,7 @@ There is 2 ways to create your own type:
 
 1. From constructor
 ```js
-const { KitsuneParserType } = require('@somucheffort/kitsune')
+const { KitsuneParserType } = require('@sooomucheffort/kitsune')
 
 const type = new KitsuneParserType(
   'name', 
@@ -65,7 +65,7 @@ const type = new KitsuneParserType(
 
 2. Extend original class with your own features
 ```js
-const { KitsuneParserType } = require('@somucheffort/kitsune')
+const { KitsuneParserType } = require('@sooomucheffort/kitsune')
 
 class MyOwnParserType extends KitsuneParserType {
   _validate(value) { /* ... */ }
