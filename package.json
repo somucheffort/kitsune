@@ -1,9 +1,9 @@
 {
   "name": "@sooomucheffort/kitsune",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Yet another argument parser",
   "main": "index.js",
-  "repository": "https://github.com/sooomucheffort/kitsune.git",
+  "repository": "https://github.com/somucheffort/kitsune.git",
   "author": "sooomucheffort",
   "license": "MIT",
   "dependencies": {}
