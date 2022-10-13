@@ -50,9 +50,6 @@ try {
 `KitsuneParserType` has 3 standard types, which include `KitsuneParserType.STRING`, `KitsuneParserType.NUMBER`, `KitsuneParserType.BOOLEAN`
 
 ### Creating your own
-There is 2 ways to create your own type:
-
-1. From constructor
 ```js
 const { KitsuneParserType } = require('@sooomucheffort/kitsune')
 
@@ -61,17 +58,6 @@ const type = new KitsuneParserType(
   val => /* validate the value */,
   val => /* transform the value */
 )
-```
-
-2. Extend original class with your own features
-```js
-const { KitsuneParserType } = require('@sooomucheffort/kitsune')
-
-class MyOwnParserType extends KitsuneParserType {
-  _validate(value) { /* ... */ }
-
-  _transform(value) { /* ... */ }
-}
 ```
 
 ## Options for an argument
